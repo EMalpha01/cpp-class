@@ -5,9 +5,12 @@ using namespace std;
 
 int main() {
     cout << "Hello, World!" << endl;
-    cout << "1" << endl;
-    cout << "2" << endl;
-    cout << "3" << endl;
+    // add a count
+    /* multi-line 
+    comment*/
+    cout << "Let's talk about keywords." << endl; // this line will still run and ignore this comment.
+    cout << "They work the same as in other languages" << endl;
+    cout << "-- Daniel Lagos" << endl;
     
     return 0;
 }
